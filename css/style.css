@@ -1,0 +1,599 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+/*Hrader Secton CSS*/
+
+.header{
+	background-color: white;
+	width: 100%;
+	padding: 20px 0px;
+
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo img{
+	width: 100px;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 8px;
+}
+
+.menu ul li a{
+	color: #1e266d;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 80px;
+}
+
+.menu-but button a{
+	background-color: #2e367d;
+	color: #fff;
+	padding: 10px 20px;
+	
+}
+button{
+	border: none;
+	margin-top: 25px;
+}
+
+.menu-but a{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: capitalize;
+}
+
+/********************
+ *Banner Section CSS*
+ ********************/
+
+.banner-1{
+	width: 100%;
+	padding: 40px 0px;
+	margin-top: 20px;
+}
+.banner-sec{
+	display: flex;
+	justify-content: space-between;
+}
+.banner-right img{
+	width: 100%;
+	height: auto;
+}
+
+.banner-left h1{
+	color: #1e266d;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.banner-left p{
+	color: #1e266d;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 25px;
+	padding: 15px 0px;
+}
+
+.banner-left button a{
+	background-color: #2e367d;
+	color: #fff;
+	text-align: center;
+	padding: 15px 25px;
+	font-size: 18px;
+	border-radius: 6px;
+	border: none;
+}
+.banner-left{
+	margin-top: 65px;
+}
+
+/*******************
+ Content section CSS
+ *******************/
+.content{
+	width: 100%;
+	padding: 80px 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.gradutes{
+	background-color: #f9799a;
+	padding: 20px 15px 10px 30px;
+	border-radius: 8px;
+	
+}
+
+.gradutes h4,.earned h4,.members h4{
+	font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.earned{
+	background-color: #61c4d8;
+	box-sizing: border-box;
+	padding: 20px 15px 10px 15px;
+	border-radius: 8px;
+	
+}
+
+
+.members{
+	background-color: #1e266d;
+	box-sizing: border-box;
+	padding: 20px 15px 10px 15px;
+	border-radius: 8px;
+	
+}
+
+
+.gradutes p{
+	font-size: 15px;
+	color: #fff;
+}
+
+.earned p{
+	font-size: 15px;
+	color: #fff;
+}
+
+.members p{
+	font-size: 15px;
+	color: #fff;
+}
+
+.column{
+	display: flex;
+	justify-content: space-between;
+}
+.gradutes,.earned,.members{
+	padding: 20px 15px 10px 15px;
+	margin-right: 10px;
+}
+
+
+/***********************
+ Project Section CSS
+ **********************/
+
+.banner-2{
+	width: 100%;
+	margin-top: 50px;
+	background-color: #fff;
+	padding: 40px 0px;
+}
+
+.project-left li{
+	list-style: none;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 6px;
+	font-weight: 200;
+	color: #171f3c;
+	display: block;
+}
+
+.project-left{
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner-righ2 img{
+	width: 100%;
+	height: auto;
+}
+
+.project-name h2{
+	color: #1e266d;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	line-height: 46px;
+}
+
+.project-name p{
+	color: #526375;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding-top: 10px;
+	line-height: 28px;
+}
+
+.project-name button a{
+	background-color: #2e367d;
+	color: #fff;
+	text-align: center;
+	padding: 15px 25px;
+	font-size: 18px;
+	border-radius: 6px;
+	border: none;
+}
+
+.project-name{
+	margin-top: 70px;
+}
+
+/*********************
+  Support Section CSS
+ * ******************/
+
+.support-section{
+	width: 100%;
+	margin-top: 50px;
+	background-color: #fff;
+	padding: 40px 0px;
+}
+
+.support-right li{
+	list-style: none;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 6px;
+	font-weight: 200;
+	color: #171f3c;
+	display: block;
+}
+
+.support-contain{
+	display: flex;
+	justify-content: space-between;
+}
+
+.support-left img{
+	width: ;
+	height: auto;
+	padding: 10px 0px;
+}
+
+.support-right h2{
+	color: #1e266d;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	line-height: 46px;
+}
+
+.support-right p{
+	color: #526375;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding-top: 10px;
+	line-height: 28px;
+}
+
+.support-right button a{
+	background-color: #2e367d;
+	color: #fff;
+	text-align: center;
+	padding: 15px 25px;
+	font-size: 18px;
+	border-radius: 6px;
+	border: none;
+}
+
+.support-right{
+	margin-top: 60px;
+	padding-left: 20px;
+}
+
+.support-section{
+	background-color: #f5f7fa;
+}
+
+/**************************
+ * Earning Section CSS
+ **************************/
+
+.earning-section{
+	width: 100%;
+	margin-top: ;
+	background-color: #fff;
+	padding: 40px 0px;
+	background-color: #f5f7fa;
+}
+
+.earning-content li{
+	list-style: none;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 6px;
+	font-weight: 200;
+	color: #171f3c;
+	display: block;
+}
+
+.earning-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.earning-right img{
+	width: ;
+	height: auto;
+}
+
+.earning-left h2{
+	color: #1e266d;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	line-height: 46px;
+}
+
+.earning-left p{
+	color: #526375;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding-top: 10px;
+	line-height: 28px;
+}
+
+.earning-left button a{
+	background-color: #2e367d;
+	color: #fff;
+	text-align: center;
+	padding: 15px 25px;
+	font-size: 18px;
+	border-radius: 6px;
+	border: none;
+}
+
+.project-name{
+	margin-top: 60px;
+}
+
+/***************************
+      Card Section CSS
+ ***************************/
+
+.card-section{
+	width: 100%;
+	background-color: #f5f7fa;
+	padding: 40px 0px;
+}
+
+.card-right li{
+	list-style: none;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 6px;
+	font-weight: 200;
+	color: #171f3c;
+	display: block;
+}
+
+.card-contain{
+	display: flex;
+	
+}
+
+.card-left img{
+	width: 80%;
+	height: auto;
+	padding: 10px 0px;
+
+
+}
+
+.card-right h2{
+	color: #1e266d;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	line-height: 46px;
+}
+
+.card-right p{
+	color: #526375;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	padding-top: 10px;
+	line-height: 28px;
+}
+
+.card-right button a{
+	background-color: #2e367d;
+	color: #fff;
+	text-align: center;
+	padding: 15px 25px;
+	font-size: 18px;
+	border-radius: 6px;
+	border: none;
+}
+
+.card-right, .card-left{
+	flex-basis: 50%;
+}
+
+.card-right{
+	margin-left: 20
+}
+
+/*motivation section css*/
+
+.motivation-section{
+	width: 100%;
+	margin-top: ;
+	background-color: #fff;
+}
+
+.motivation-top h1{
+	color: #07324f;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px;
+	line-height: 46px;
+	text-align: center;
+	padding-top: 60px;
+}
+.motivation-img{
+	padding: 10px 0px;
+}
+
+/* Idea Section CSS */
+
+
+
+
+
+
+/*********************
+ About Us CSS
+**********************/
+
+.about-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.about-content h2{
+	color: #1e266d;
+	line-height: 36px;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: 30px
+}
+
+.about-content p{
+	color: #333;
+	font-size: 16px;
+	line-height: 28px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+
+
+
+/**************************
+ * Address Content CSS
+ * ************************/
+
+.address{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+
+.address-content{
+	display: flex;
+	background-color: #2e367d;
+	padding: 100px 60px 80px 60px;
+	border-radius: 9px;
+}
+.address-left, .address-right{
+	flex-basis: 50%;
+}
+
+.address-left h3, .address-right h3{
+	color: #fff;
+	line-height: 24px;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: 25px;
+	padding-left: 20px; 
+}  
+
+.address-left p, .address-right p{
+	color: #fff;
+	line-height: 15px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+/*Footer Content CSS*/
+
+.footer-section{
+	width: 100%;
+	padding: 60px 0px;
+}
+.footer-content{
+	padding-left: 90px;
+}
+
+.footer{
+	display: flex;
+}
+
+.footer-1,.footer-2,.footer-3,.footer-4{
+	flex-basis: 25%;
+	margin-right: 20px;
+}
+
+.footer-1 h5,.footer-2 h5,.footer-3 h5,.footer-4 h5{
+	color: #1e266d;
+	line-height: 24px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px; 
+}
+
+.footer-1 p, .footer-2 p{
+	color: #91a3bb;
+	line-height: 1.9;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-bottom: 1px;
+}
+
+.footer-3 ul li, .footer-4 ul li{
+	list-style: none;
+} 
+
+.footer-3 ul li a,.footer-4 ul li a{
+	color: #91a3bb;
+	font-size: 16px;
+	line-height: 1.9;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-bottom: 6px;
+	transition: 0.5s;
+}
+
+.footer-3 ul li a:hover,.footer-4 ul li a:hover{
+	color:#1e266d;
+	margin-left: 8px;
+	transition: 0.5s;
+}
+
